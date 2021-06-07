@@ -1,0 +1,42 @@
+<!-- Core Required -->
+%%head%%
+
+<!--content-->
+<tr>
+	<td align="left" style="font-family: Verdana, Arial, sans-serif; color:#231f20; font-size:14px; line-height: 28px;">
+		Hello %recipient.FirstName% %recipient.LastName% <span>(UID: %recipient.UnitID%)</span>,
+	</td>
+</tr>
+<tr>
+	<td height="15">
+	</td>
+</tr>
+<tr>
+	<td align="left" style="font-family: Verdana, Arial, sans-serif; color:#231f20; font-size:14px; line-height: 28px;">
+		Period: {{StartDate}} - {{EndDate}}<br />
+		{{ExpenseTitle}}: $ %recipient.TotalPaidAmount%<br />
+		Tax Identification Number for your provider is: {{AssociationEIN}}<br />
+	</td>
+</tr>
+<tr>
+	<td height="15">
+	</td>
+</tr>
+</tr>
+<tr>
+	<td align="left" style="font-family: Verdana, Arial, sans-serif; color:#231f20; font-size:14px; line-height: 28px;">
+		Check with the IRS or tax advisor to determine qualified expenses.
+	</td>
+</tr>
+<tr>
+	<td height="15">
+	</td>
+</tr>
+<tr>
+	<td align="left" style="font-family: Verdana, Arial, sans-serif; color:#231f20; font-size:14px; line-height: 28px;">
+		This information is made available to you for your tax purposes. If you have questions, you should consult with the IRS or your tax advisor. IRS toll free at 1.800.829.1040 or visit www.irs.gov/forms-pubs/about-form-1040
+	</td>
+</tr>
+<!--end content-->
+
+%%foot%%
